@@ -58,3 +58,9 @@ pytest-cov>=4.1.0
 # Utilities
 python-dotenv>=1.0.0
 pydantic>=2.0.0
+
+# UI Enhancements
+streamlit-autorefresh>=1.0.0
+streamlit-extras>=0.3.0
+streamlit-option-menu>=0.3.6
+plotly>=5.18.0
