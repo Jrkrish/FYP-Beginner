@@ -1,0 +1,60 @@
+# Core LangChain dependencies
+langchain
+langgraph>=0.2.0
+langchain_community
+langchain_core
+langchain_groq
+langchain_openai
+langchain-google-genai
+
+# Vector stores
+faiss_cpu
+chromadb>=0.4.0
+
+# Embeddings
+sentence-transformers>=2.2.0
+
+# Web framework
+fastapi>=0.100.0
+uvicorn>=0.23.0
+websockets>=12.0
+
+# UI
+streamlit>=1.28.0
+
+# Database
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+aiosqlite>=0.19.0  # For SQLite async support
+asyncpg>=0.28.0  # For PostgreSQL async support (optional)
+# psycopg2-binary>=2.9.0  # Uncomment for PostgreSQL sync support
+
+# Caching
+redis>=5.0.0
+upstash_redis
+
+# HTTP clients
+aiohttp>=3.9.0
+httpx>=0.25.0
+
+# External integrations
+slack-sdk>=3.23.0  # Slack integration
+# jira>=3.5.0  # Jira integration (optional, uses REST API instead)
+
+# Security & Auth
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# Logging & Monitoring
+loguru>=0.7.0
+opentelemetry-api>=1.20.0
+opentelemetry-sdk>=1.20.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
